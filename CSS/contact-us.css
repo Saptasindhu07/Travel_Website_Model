@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Playfair+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+    letter-spacing: 1.8px;
+}
+.clearfix1{
+    clear: both;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    
+    
+}
+header{
+    height: 13vh;
+    background: linear-gradient(rgba(52, 37, 37, 0.841),rgba(14, 14, 14, 0.905));
+    background-position: center;
+    background-size:100vw;
+    background-repeat: no-repeat;
+}
+.navbar{
+    position: relative;
+    background-color: rgb(23, 22, 22);
+    width:100%
+}
+.navitems{
+    position: relative;
+    display: inline-block;
+    margin-left: 0.5vw;
+    background-color: rgb(15, 15, 15);
+}
+.navitems a{
+    margin-top: 1vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+    float:right;
+    font-size: medium;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    border:2px solid white;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+    opacity: 0.67;
+}
+.navitems a:hover{
+    text-decoration: underline;
+    text-shadow: 20px;
+    font-family: cursive;
+}
+.main-box{
+    background: linear-gradient(rgb(255, 255, 255),rgb(221, 215, 215));
+}
+.left-float{
+    position: relative;
+    float:left;
+    height:83vh;
+    width:36vw;
+    margin-top: 3vh;
+    margin-left: 18vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.right-float{
+    position: relative;
+    float:left;
+    height:83vh;
+    width:36vw;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.line{
+    position: relative;
+    margin-top: 5vh;
+}
+.heading{
+    margin-bottom: 1vh;
+    font-size: large;
+    font-weight: bold;
+}
+.text{
+font-family:'Times New Roman', Times, serif;
+font-weight: 100;
+}
+.image{
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+    height: 33vh;
+    background: url(../Images/TRAVEL13.jpg);
+    background-position:center;
+    background-size: contain;
+   background-repeat: no-repeat;
+}
+.label{
+    margin-top: 1%;
+    width:90%;
+    display: block;
+    font-weight: bold;
+}
+.submit{
+    display: inline-block;
+    position: relative;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    margin-left: 25.7vw;
+    width:9vw;
+    height:6vh;
+}
+.submit:hover{
+    background-color: black;
+    border-radius: 100px;
+}
+@media(min-width:310px) and (max-width:550px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Playfair+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+    letter-spacing: 1.8px;
+}
+.clearfix1{
+    clear: both;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+header{
+    height: 5vh;
+    background: linear-gradient(rgba(52, 37, 37, 0.841),rgba(14, 14, 14, 0.905));
+    background-position: center;
+    background-size:100vw;
+    background-repeat: no-repeat;
+}
+.navbar{
+    position: relative;
+    background-color: rgb(23, 22, 22);
+    width:100%
+}
+.navitems{
+    position: relative;
+    display: inline-block;
+    margin-left: 0.1vw;
+    background-color: rgb(15, 15, 15);
+}
+.first-{
+    margin-left: 19vw;
+}
+.navitems a{
+    margin-top: 1vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+    float:left;
+    font-size: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    border:2px solid white;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+    opacity: 0.67;
+}
+.navitems a:hover{
+    text-decoration: underline;
+    text-shadow: 20px;
+    font-family: cursive;
+}
+.main-box{
+    background: linear-gradient(rgb(255, 255, 255),rgb(221, 215, 215));
+}
+.left-float{
+    position: relative;
+    float:left;
+    height:83vh;
+    width:40%;
+    margin-top: 3vh;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.right-float{
+    position: relative;
+    float:left;
+    height:83vh;
+    width:50%;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.line{
+    position: relative;
+    margin-top: 8vh;
+}
+.heading{
+    margin-bottom: 1vh;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text{
+font-family:'Times New Roman', Times, serif;
+font-weight: 100;
+font-size: 13px;
+}
+.image{
+    margin-top: 8%;
+    position: relative;
+    width: 100%;
+    height: 33vh;
+    background: url(../Images/TRAVEL13.jpg);
+    background-position:center;
+    background-size: contain;
+   background-repeat: no-repeat;
+}
+.label{
+    margin-top: 1%;
+    width:90%;
+    display: block;
+    font-weight: bold;
+}
+.submit{
+    display: inline-block;
+    position: relative;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    margin-left:0px;
+    width:20vw;
+    height:6vh;
+}
+.submit:hover{
+    background-color: black;
+    border-radius: 100px;
+}
+}

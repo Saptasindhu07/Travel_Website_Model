@@ -1,0 +1,1307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Playfair+Display:wght@900&display=swap');
+*{
+    margin: 0px;
+    border:0px;
+    letter-spacing: 1.8px;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    
+    
+}
+header{
+    margin-top: 0px;
+    border-top: 5px solid rgb(104, 134, 134);
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0.5)),url("../Images/TRAVEL1.jpeg");
+    background-position: center;
+    background-size:100vw;
+    background-repeat: no-repeat;
+    opacity:0.85;
+}
+.navbar{
+    position: relative;
+    margin-top: 1%;
+    color: white;
+    width:100%
+}
+.navitems{
+    position: relative;
+    display: inline-block;
+    margin-left: 0.5vw;
+    
+}
+.navitems a{
+    position: relative;
+    color: white;
+    float:right;
+    font-size: medium;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    border:2px solid white;
+    border-radius: 100px;
+    background-color: black;
+    opacity: 0.67;
+}
+.first-element_{
+    margin-left: -9vw;
+}
+.navitems a:hover{
+    text-decoration: underline;
+    text-shadow: 20px;
+    font-family: cursive;
+}
+.Travelling_World{
+    position: relative;
+    margin-left:4vw;
+    text-align: center;
+    margin-top: 40vh;
+    color: white;
+    font-size:  xx-large;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    word-spacing: 30px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.para-content{
+    position: relative;
+    margin-left:30vw;
+    width:40%;
+    text-align: center;
+    margin-top: 0.5vh;
+    color: white;
+    font-size:  large;
+    font-weight: bolder; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+.btn1{
+    position: relative;
+    display:inline-block;
+    padding:0.5em 1.5em;
+    margin-left: 40vw; 
+    margin-top: 1%;  
+    border:2px solid white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    color: rgb(244, 93, 6);
+    text-shadow: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btn1:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-family:cursive;
+}
+.navbar{
+    position: sticky;
+    top:10px;
+    z-index: 2;
+}
+.clearfix1{
+    clear: both;
+}
+#main-showcase{
+    background-color: rgb(224, 212, 212);
+    margin-top: 1.1%;
+}
+.row{
+    position: relative;
+    margin-left: 20.5vw;
+    width:60vw;
+    height: 90vh;
+    background-color:rgb(241, 235, 235);
+}
+.row1 .image{
+    float: left;
+    position: relative;
+    width:50%;
+    height:100%;
+    background-image: url(../Images/TRAVEL2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.row1 .image:hover{
+    border:5px solid red;
+    border-radius: 50px;
+}
+.row1 .text{
+    float: left;
+    position: relative;
+    width:50%;
+    height:100%;
+    text-align: center;
+    
+}
+.row1 .text .text-content{
+    margin-top:25%;
+    font-size: large;
+}
+.row2 .image{
+    float: left;
+    position: relative;
+    width:50%;
+    height:100%;
+    background-image: url(..//Images/TRAVEL3.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.row2 .image:hover{
+    border:5px solid red;
+    border-radius: 50px;
+}
+.row2 .text{
+    float: left;
+    position: relative;
+    width:50%;
+    height:100%;
+    text-align: center;
+    
+}
+.row2 .text .text-content{
+    margin-top:25%;
+    font-size: large;
+}
+.list-of-destinations-line-1 .Place{
+    position: relative;
+    float:left;
+    margin-top: 1;
+    margin-left: 3vw;
+    width:20vw;
+    height:55vh;
+    background-color:rgb(72, 69, 69);
+    box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+}
+.list-of-destinations-line-2{
+    margin-top: 3%;
+}
+.list-of-destinations-line-2 .Place{
+    position: relative;
+    float:left;
+    margin-left: 3vw;
+    width:20vw;
+    height:55vh;
+    background-color: rgb(71, 67, 67);
+    box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+}
+.list-of-destinations-line-heading h2{
+    position: relative;
+    font-family:Playfair;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    float:left;
+    margin-top: 1%;
+   color: white;
+}
+.Destinations{
+    background: linear-gradient(rgba(17, 17, 17, 0.8),rgba(0,0,0,0.7)),url(../Images/TRAVEL4.jpg);
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+.Australia .image{
+    position: relative;
+    background: url(../Images/TRAVEL5.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.Egypt .image{
+    position: relative;
+    background: url(../Images/TRAVEL6.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.Canada .image{
+    position: relative;
+    background: url(../Images/TRAVEL7.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.USA .image{
+    position: relative;
+    background: url(../Images/TRAVEL8.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.India .image{
+    position: relative;
+    background: url(../Images/TRAVEL9.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.Europe .image{
+    position: relative;
+    background: url(../Images/TRAVEL10.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.Africa .image{
+    position: relative;
+    background: url(../Images/TRAVEL11.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.New-Zealand .image{
+    position: relative;
+    background: url(../Images/TRAVEL12.jpg);
+    height:93%;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.btn2{
+    margin-left: 1%;
+    position: relative;
+    border:3px solid black;
+    width:98%;
+    text-align: center;
+    border-radius: 100px;
+    font-weight: bolder;
+    background-color: rgb(227, 76, 21);
+}
+.btn2 a{
+    color:white
+}
+.btn2 a:hover{
+    font-family: cursive;
+    font-size: large;
+    background-color: white;
+    color:black
+}
+
+
+.feature-container{
+    background: linear-gradient(rgba(26, 28, 30, 0.409),rgba(15, 15, 32, 0.773)),url(../Images/TRAVELX.jpg);
+    height:100%
+}
+.features{
+    position: relative;
+    float: left;
+    margin-top: 3%;
+    height: 55vh;
+    width:55vw;
+    margin-left:22vw;
+}
+.features .pricing{
+    position: relative;
+    float: left;
+    height: 54vh;
+    width:33.33%;
+    background-color: rgba(220, 29, 29, 0.301);
+    box-shadow: 0px 0.5px 10px 0px rgb(59, 58, 92);
+}
+.features .pricing h2{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(247, 247, 20, 0.758);
+}
+.features .pricing p{
+    color:white;
+    font-weight: 700;
+    font-size: small;
+    margin-top:20px;
+    text-align: center;
+}
+.features .Experience{
+    position: relative;
+    float: left;
+    height: 100%;
+    width:33.33%;
+    background-color: rgba(27, 49, 79, 0.531);
+}
+.features .Experience h2{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(5, 252, 5, 0.972);
+}
+.features .Experience p{
+    color:white;
+    font-weight: 700;
+    font-size: small;
+    margin-top:20px;
+    text-align: center;
+}
+.features .Special-Offers{
+    position: relative;
+    float: left;
+    height: 100%;
+    width:33.33%;
+    background-color: rgba(51, 98, 55, 0.572);
+}
+.features .Special-Offers h2{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.891);
+}
+.features .Special-Offers p{
+    color:white;
+    font-weight: 700;
+    font-size: small;
+    margin-top:20px;
+    text-align: center;
+}
+
+.btn3{
+    float:left;
+    margin-top: 10%;
+    margin-left: 20%;
+    border:2px solid white;
+    border-radius: 100px;
+    background-color: white;
+}
+.btn3 a{
+    color:rgb(244, 103, 2);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btn3:hover{
+    border-radius: 0px;
+}
+.footer-container{
+    background:linear-gradient(rgba(18, 17, 17, 0.844),rgba(19, 18, 18, 0.935));
+}
+.footer-container .box{
+    height:20vh;
+    width:40vw;
+    margin-left:28vw;
+}
+.icon1{
+    float:left;
+    margin-left: 14vw;
+    margin-top:7vh;
+}
+.icon2{
+    float:left;
+    margin-left: 2vw;
+    margin-top:7vh;
+}
+.icon3{
+    float:left;
+    margin-left: 2vw;
+    margin-top:7vh;
+}
+.footer-text{
+    margin-top:4vh;
+    color:white;
+    text-align: center;
+    font-size: xx-small;
+}
+@media (min-width:310px) and (max-width:450px){
+    header{
+        margin-top: 0px;
+        height: 36vh;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0.5)),url("../Images/TRAVEL1_MediaQuery.jpeg");
+        background-position: left;
+        background-size:70vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity:0.85;
+        width:108%;
+    }
+    .navbar{
+        position: relative;
+        margin-top: 1%;
+        color: white;
+        width:100%
+    }
+    .navitems{
+        position: relative;
+        display: inline-block;
+        margin-left: 17.4vw;
+        
+    }
+    .navitems a{
+        color: white;
+        float:none;
+        font-size: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.1em 0.1em;
+        border:2px solid white;
+        border-radius: 100px;
+        background-color: black;
+        opacity: 0.67;
+    }
+    .first-element_{
+        margin-left: -76vw;
+    }
+    .navitems a:hover{
+        text-decoration: underline;
+        text-shadow: 20px;
+        font-family: cursive;
+    }
+    .Travelling_World{
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        margin-left:-4vw;
+        margin-top: 6vh;
+        color: white;
+        font-size: 18px;
+    
+    }
+    .para-content{
+        position: relative;
+        margin-left:27vw;
+        width:40%;
+        text-align: center;
+        margin-top: 7.5vh;
+        color: white;
+        font-size:  xx-small;
+        font-weight: bolder; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        opacity: 0.6;
+        text-decoration: underline;
+    }
+    .btn1{
+        position: relative;
+        display:inline-block;
+        padding:0.5em 1.5em;
+        margin-left: 18vw; 
+        margin-top: 1%;  
+        border:2px solid white;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        background-color: white;
+        color: rgb(244, 93, 6);
+        text-shadow: 10px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        font-style: italic;
+        font-family:cursive;
+    }
+    .navbar{
+        position: sticky;
+        top:10px;
+        z-index: 2;
+    }
+    .clearfix1{
+        clear: both;
+    }
+    #main-showcase{
+        background-color: rgb(224, 212, 212);
+        margin-top: 0.5%;
+    }
+    .row{
+        position: relative;
+        margin-left:0px;
+        width:108vw;
+        height: 36vh;
+        background-color:rgb(241, 235, 235);
+    }
+    .row1 .image{
+        float: left;
+        position: relative;
+        width:45%;
+        height:100%;
+        background-image: url(../Images/TRAVEL2_Media_Query.png);
+        background-position:bottom;
+        object-fit:contain;
+    }
+    .row1 .image:hover{
+        border:5px solid red;
+        border-radius: 50px;
+    }
+    .row1 .text{
+        float: left;
+        position: relative;
+        width:50%;
+        height:100%;
+        margin-left: 9px;
+        text-align: left;
+        font-size:9px;
+        
+    }
+    .row1 .text .text-content{
+        font-size: small;
+    }
+    .row2 .image{
+        float: left;
+        position: relative;
+        width:50%;
+        height: 28vh;
+        margin-top:1%;
+        background-image: url(..//Images/TRAVEL3.jpeg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .row2 .image:hover{
+        border:5px solid red;
+        border-radius: 50px;
+    }
+    .row2 .text{
+        float: left;
+        position: relative;
+        width:50%;
+        height:100%;
+        text-align: left;
+        font-size:9px;
+        
+    }
+    .row2 .text .text-content{
+        font-size: small;
+    }
+    .list-of-destinations-line-1{
+        width:100%;
+    }
+    .list-of-destinations-line-heading h2{
+        position: relative;
+        font-family:Playfair;
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        float:left;
+        margin-top: 1%;
+       color: white;
+    }
+    .list-of-destinations-line-1 .Place {
+            position: relative;
+            float:left;
+            margin-top: 0px;
+            margin-left: 4vw;
+            width:20vw;
+            height:10vh;
+            background-color:rgb(72, 69, 69);
+            box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+    }
+
+    .list-of-destinations-line-2{
+        margin-top: 3%;
+    }
+    .list-of-destinations-line-2 .Place{
+        position: relative;
+        float:left;
+        margin-top: 1;
+        margin-left: 4vw;
+        width:20vw;
+        height:10vh;
+        background-color:rgb(72, 69, 69);
+        box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+    }
+    
+    .Destinations{
+        background: linear-gradient(rgba(17, 17, 17, 0.8),rgba(0,0,0,0.7)),url(../Images/TRAVEL4.jpg);
+        height:37vh;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        width:108%
+    }
+    .Australia .image{
+
+        position: relative;
+        background: url(../Images/TRAVEL5.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    
+    .Egypt .image{
+        position: relative;
+        background: url(../Images/TRAVEL6.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Canada .image{
+        position: relative;
+        background: url(../Images/TRAVEL7.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .USA .image{
+        position: relative;
+        background: url(../Images/TRAVEL8.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .India .image{
+        position: relative;
+        background: url(../Images/TRAVEL9.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Europe .image{
+        position: relative;
+        background: url(../Images/TRAVEL10.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Africa .image{
+        position: relative;
+        background: url(../Images/TRAVEL11.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .New-Zealand .image{
+        position: relative;
+        background: url(../Images/TRAVEL12.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .btn2{
+        margin-left: 1%;
+        position: relative;
+        border:3px solid black;
+        width:98%;
+        text-align: center;
+        border-radius: 100px;
+        font-weight: bolder;
+        background-color: rgb(227, 76, 21);
+    }
+    .btn2 a{
+        color:white;
+        font-size: 8px;
+    }
+    .btn2 a:hover{
+        font-family: cursive;
+        font-size: large;
+        background-color: white;
+        color:black
+    }
+    .Australia .btn2 a{
+        font-size: 8px;
+    }
+    .feature-container{
+        background: linear-gradient(rgba(26, 28, 30, 0.409),rgba(15, 15, 32, 0.773)),url(../Images/TRAVELX.jpg);
+        width:108%;
+    }
+    .features{
+        position: relative;
+        float: left;
+        margin-top: 12%;
+        height: 42vh;
+        width:69vw;
+        margin-left:12.8vw;
+    }
+    .features .columns{
+        position: relative;
+        float: left;
+        height: 100%;
+        width:33%;
+        background-color: rgba(220, 29, 29, 0.301);
+        box-shadow: 0px 0.5px 10px 0px rgb(59, 58, 92);
+    }
+    .features .pricing h2{
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 14px;
+        color: rgba(247, 247, 20, 0.758);
+    }
+    .features .pricing p{
+        color:white;
+        font-weight: 700;
+        font-size:8px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .features .Experience{
+        position: relative;
+        float: left;
+        height: 100%;
+        width:33.33%;
+        background-color: rgba(27, 49, 79, 0.531);
+    }
+    .features .Experience h2{
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+        color: rgba(5, 252, 5, 0.972);
+    }
+    .features .Experience p{
+        color:white;
+        font-weight: 700;
+        font-size:8px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .features .Special-Offers{
+        position: relative;
+        float: right;
+        height: 100%;
+        width:31.68%;
+        background-color: rgba(51, 98, 55, 0.572);
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .features .Special-Offers h2{
+        margin-top: 0.5vh;;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.891);
+    }
+    .features .Special-Offers p{
+        color:white;
+        font-weight: 700;
+        font-size: xx-small;
+        margin-top:20px;
+        text-align: center;
+    }
+    
+    .btn3{
+        float:left;
+        margin-top: 10%;
+        margin-left: 4%;
+        border:2px solid white;
+        border-radius: 100px;
+        background-color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    .btn3 a{
+        color:rgb(244, 103, 2);
+        font-weight: bolder;
+        text-decoration: none;
+        font-size:9px;
+    }
+    .btn3:hover{
+        border-radius: 0px;
+    }
+    .footer-container{
+        background:linear-gradient(rgba(18, 17, 17, 0.844),rgba(19, 18, 18, 0.935));
+        width:108%
+    }
+    .footer-container .box{
+        height:21vh;
+        width:60vw;
+        margin-left:23vw;
+    }
+    .icon1{
+        float:left;
+        margin-left: 11vw;
+        margin-right: 0px;
+        margin-top:7vh;
+    }
+    .icon2{
+        float:left;
+        margin-left: 4vw;
+        margin-right: 0px;
+        margin-top:7vh;
+        margin-bottom: 0px;
+    }
+    .icon3{
+        float:left;
+        margin-left:4vw;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 7vh;
+    }
+    .footer-text{
+        color:white;
+        text-align: center;
+        font-size: xx-small;
+    }
+}
+@media (min-width:451px) and (max-width:600px){
+    header{
+        margin-top: 0px;
+        border-top: 5px solid rgb(104, 134, 134);
+        height: 43vh;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0.5)),url("../Images/TRAVEL1_MediaQuery.jpeg");
+        background-position: left;
+        background-size:70vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity:0.85;
+        width:108%;
+    }
+    .navbar{
+        position: relative;
+        margin-top: 1%;
+        color: white;
+        width:100%
+    }
+    .navitems{
+        position: relative;
+        display: inline-block;
+        margin-left: 17.4vw;
+        
+    }
+    .navitems a{
+        color: white;
+        float:none;
+        font-size: xx-small;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.1em 0.1em;
+        border:2px solid white;
+        border-radius: 100px;
+        background-color: black;
+        opacity: 0.67;
+    }
+    .first-element_{
+        margin-left: -76vw;
+    }
+    .navitems a:hover{
+        text-decoration: underline;
+        text-shadow: 20px;
+        font-family: cursive;
+    }
+    .Travelling_World{
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        margin-left:-4vw;
+        margin-top: 11vh;
+        color: white;
+        font-size: 18px;
+    
+    }
+    .para-content{
+        position: relative;
+        margin-left:27vw;
+        width:40%;
+        text-align: center;
+        margin-top: 7.5vh;
+        color: white;
+        font-size:  xx-small;
+        font-weight: bolder; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        opacity: 0.6;
+        text-decoration: underline;
+    }
+    .btn1{
+        position: relative;
+        display:inline-block;
+        padding:0.5em 1.5em;
+        margin-left: 18vw; 
+        margin-top: 1%;  
+        border:2px solid white;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        background-color: white;
+        color: rgb(244, 93, 6);
+        text-shadow: 10px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        font-style: italic;
+        font-family:cursive;
+    }
+    .navbar{
+        position: sticky;
+        top:10px;
+        z-index: 2;
+    }
+    .clearfix1{
+        clear: both;
+    }
+    #main-showcase{
+        background-color: rgb(224, 212, 212);
+        margin-top: 0.5%;
+    }
+    .row{
+        position: relative;
+        margin-left:0px;
+        width:108vw;
+        height: 47vh;
+        background-color:rgb(241, 235, 235);
+    }
+    .row1 .image{
+        float: left;
+        position: relative;
+        width:45%;
+        height:100%;
+        background-image: url(../Images/TRAVEL2_Media_Query.png);
+        background-position:bottom;
+        object-fit:contain;
+    }
+    .row1 .image:hover{
+        border:5px solid red;
+        border-radius: 50px;
+    }
+    .row1 .text{
+        float: left;
+        position: relative;
+        width:50%;
+        height:100%;
+        margin-left: 9px;
+        text-align: left;
+        font-size:small
+        
+    }
+    .row1 .text .text-content{
+        font-size: small;
+    }
+    .row2 .image{
+        float: left;
+        position: relative;
+        width:50%;
+        height: 28vh;
+        margin-top:1%;
+        background-image: url(..//Images/TRAVEL3.jpeg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .row2 .image:hover{
+        border:5px solid red;
+        border-radius: 50px;
+    }
+    .row2 .text{
+        float: left;
+        position: relative;
+        width:50%;
+        height:100%;
+        text-align: left;
+        font-size:small
+        
+    }
+    .row2 .text .text-content{
+        font-size: small;
+    }
+    .list-of-destinations-line-1{
+        width:100%;
+    }
+    .list-of-destinations-line-heading{
+        position: relative;
+        font-family:Playfair;
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 2%;
+        margin-bottom: 1%;
+        float:left;
+        margin-top: 1%;
+       color: white;
+    }
+    .list-of-destinations-line-heading h2{
+        font-size: 25px;
+    }
+    .list-of-destinations-line-1 .Place {
+            position: relative;
+            float:left;
+            margin-top: 0px;
+            margin-left: 4vw;
+            width:20vw;
+            height:10vh;
+            background-color:rgb(72, 69, 69);
+            box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+    }
+
+    .list-of-destinations-line-2{
+        margin-top: 3%;
+    }
+    .list-of-destinations-line-2 .Place{
+        position: relative;
+        float:left;
+        margin-top: 1;
+        margin-left: 4vw;
+        width:20vw;
+        height:10vh;
+        background-color:rgb(72, 69, 69);
+        box-shadow: 3px 1px 10px 0px rgb(70, 66, 66);
+    }
+    
+    .Destinations{
+        background: linear-gradient(rgba(17, 17, 17, 0.8),rgba(0,0,0,0.7)),url(../Images/TRAVEL4.jpg);
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        width:108%;
+        height:50vh;
+    }
+    .Australia .image{
+
+        position: relative;
+        background: url(../Images/TRAVEL5.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    
+    .Egypt .image{
+        position: relative;
+        background: url(../Images/TRAVEL6.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Canada .image{
+        position: relative;
+        background: url(../Images/TRAVEL7.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .USA .image{
+        position: relative;
+        background: url(../Images/TRAVEL8.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .India .image{
+        position: relative;
+        background: url(../Images/TRAVEL9.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Europe .image{
+        position: relative;
+        background: url(../Images/TRAVEL10.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .Africa .image{
+        position: relative;
+        background: url(../Images/TRAVEL11.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .New-Zealand .image{
+        position: relative;
+        background: url(../Images/TRAVEL12.jpg);
+        height:70%;
+        background-position: center;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .btn2{
+        margin-left: 1%;
+        position: relative;
+        border:3px solid black;
+        width:98%;
+        text-align: center;
+        border-radius: 100px;
+        font-weight: bolder;
+        background-color: rgb(227, 76, 21);
+    }
+    .btn2 a{
+        color:white
+    }
+    .btn2 a:hover{
+        font-family: cursive;
+        font-size: large;
+        background-color: white;
+        color:black
+    }
+    .Australia .btn2 a{
+        font-size: 8px;
+    }
+    .feature-container{
+        background: linear-gradient(rgba(26, 28, 30, 0.409),rgba(15, 15, 32, 0.773)),url(../Images/TRAVELX.jpg);
+        width:108%;
+    }
+    .features{
+        position: relative;
+        float: left;
+        margin-top: 12%;
+        height: 40vh;
+        width:71vw;
+        margin-left:13.8vw;
+    }
+    .features .columns{
+        position: relative;
+        float: left;
+        height: 100%;
+        width:33%;
+        background-color: rgba(220, 29, 29, 0.301);
+        box-shadow: 0px 0.5px 10px 0px rgb(59, 58, 92);
+    }
+    .features .pricing h2{
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 14px;
+        color: rgba(247, 247, 20, 0.758);
+    }
+    .features .pricing p{
+        color:white;
+        font-weight: 700;
+        font-size:8px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .features .Experience{
+        position: relative;
+        float: left;
+        height: 100%;
+        width:33.33%;
+        background-color: rgba(27, 49, 79, 0.531);
+    }
+    .features .Experience h2{
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+        color: rgba(5, 252, 5, 0.972);
+    }
+    .features .Experience p{
+        color:white;
+        font-weight: 700;
+        font-size:8px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .features .Special-Offers{
+        position: relative;
+        float: right;
+        height: 100%;
+        width:31.68%;
+        background-color: rgba(51, 98, 55, 0.572);
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .features .Special-Offers h2{
+        margin-top: 0.5vh;;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.891);
+    }
+    .features .Special-Offers p{
+        color:white;
+        font-weight: 700;
+        font-size: xx-small;
+        margin-top:20px;
+        text-align: center;
+    }
+    
+    .btn3{
+        float:left;
+        margin-top: 10%;
+        margin-left: 4%;
+        border:2px solid white;
+        border-radius: 100px;
+        background-color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+    .btn3 a{
+        color:rgb(244, 103, 2);
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .btn3:hover{
+        border-radius: 0px;
+    }
+    .footer-container{
+        background:linear-gradient(rgba(18, 17, 17, 0.844),rgba(19, 18, 18, 0.935));
+        width:108%
+    }
+    .footer-container .box{
+        height:29vh;
+        width:60vw;
+        margin-left:23vw;
+    }
+    .icon1{
+        float:left;
+        margin-left: 11vw;
+        margin-right: 0px;
+        margin-top:7vh;
+    }
+    .icon2{
+        float:left;
+        margin-left: 4vw;
+        margin-right: 0px;
+        margin-top:7vh;
+        margin-bottom: 4vh;
+    }
+    .icon3{
+        float:left;
+        margin-left:4vw;
+        margin-right: 0px;
+        margin-bottom:2vh;
+        margin-top: 7vh;
+    }
+    .footer-text{
+        color:white;
+        text-align: center;
+        font-size: xx-small;
+    }
+}
